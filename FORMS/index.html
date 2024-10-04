@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Form</h1>
-    <form action="post">  
-        <div>  
+    <form action="post">
+      <div>
         <label for="username">Username:</label>
-        <input type="text" name="Username" placeholder="Enter your username">
-    
+        <input type="text" name="Username" placeholder="Enter your username" />
+
         <label for="password">Password:</label>
-        <input type="password" name="Password" placeholder="Enter your password" maxlength=8>
-        </div>
+        <input
+          type="password"
+          name="Password"
+          placeholder="Enter your password"
+          maxlength="8"
+        />
+      </div>
+      <div>
+        <input type="radio" name="Gender" id="Male" />
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Female" />
+        <label for="Male">Female</label>
+      </div>
     </form>
-</body>
+  </body>
 </html>
